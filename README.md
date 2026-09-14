@@ -66,14 +66,17 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
    This will open the below conversation:
 
    
-   <kbd> <img src="https://github.com/user-attachments/assets/79614c76-75ba-4650-9c0e-dcf8941b4960"> </kbd>
+   <kbd height=80% width=80%> <img src="https://github.com/user-attachments/assets/79614c76-75ba-4650-9c0e-dcf8941b4960"> </kbd>
 
    
    <h4>*What is a DAT file?</h4>
-   Computer programs create DAT files to store specific information or data. The information in the file is only relevant to the programme that created it, though almost any programme can create DAT files. DAT might look like an acronym, but the extension name is actually short for ‘data’ - so the name is more or less descriptive.    
-   
-   <br><br>
-   
-  </li>
+   Computer programs create DAT files to store specific information or data. The information in the file is only relevant to the programme that created it, though almost any programme can create DAT files. DAT might look like an acronym, but the extension name is actually short for ‘data’ - so the name is more or less descriptive.
+   </li>
+
+   <li>
+    Searching for MZ file signature (magic bytes) to find what it means.
+    
+   <kbd height=80% width=80% > <img src="https://github.com/user-attachments/assets/e8d1aade-e406-4774-8e29-b67be3025216"></kbd>
+   </li>
  </ol>
 </div>
