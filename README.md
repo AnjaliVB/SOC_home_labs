@@ -57,12 +57,21 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
   </li>
   
   <li>Follow the HTTP stream by right clicking the request/response
-   <br><br>
-   This screenshot clearly shows a .dat file.<br>
+   <br>
+   This screenshot clearly shows a <b>.dat file </b>.
+
+   
    <kbd height=80% width=80%> <img src="https://github.com/user-attachments/assets/fae9fb56-2d55-4f4d-a873-3dd3d86dad5f" > </kbd>
-   <br><br>
-   This will open the below conversation:<br>
+   
+   This will open the below conversation:
+
+   
    <kbd> <img src="https://github.com/user-attachments/assets/79614c76-75ba-4650-9c0e-dcf8941b4960"> </kbd>
+
+   
+   <h4>*What is a DAT file?</h4>
+   Computer programs create DAT files to store specific information or data. The information in the file is only relevant to the programme that created it, though almost any programme can create DAT files. DAT might look like an acronym, but the extension name is actually short for ‘data’ - so the name is more or less descriptive.    
+   
    <br><br>
    
   </li>
