@@ -41,7 +41,12 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
 
 </div>
 
-<div align="justify">
-Open wireshark, open sample .pcap file for investigation
- </p>
+<div>
+ <h1>Task: Analyze sample Network Traffic using Wireshark</h1>
+ <b>Steps</b>
+ <ol>
+  <li>Open wireshark, open sample .pcap file for investigation
+  <br>
+  </li>
+ </ol>
 </div>
