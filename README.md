@@ -45,8 +45,26 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
  <h1>Task: Analyze sample Network Traffic using Wireshark</h1>
  <b>Steps</b>
  <ol>
-  <li>Open wireshark, open sample .pcap file for investigation
-  <br>
+  
+  <li> Open wireshark, open sample 2023-02-03.pcap file for investigation
+  <br><br>
+   <kbd height=80% width=80%> <img src="https://github.com/user-attachments/assets/881f74c6-e147-4d18-9f38-e3de369f5ffc"> </kbd>
+  </li>
+  
+  <li>Investigating the HTTP traffic
+  <br><br>
+   <kbd height=80% width=80%> <img src="https://github.com/user-attachments/assets/98076556-11ae-45df-a077-31fcddaeb672"> </kbd>
+  </li>
+  
+  <li>Follow the HTTP stream by right clicking the request/response
+   <br><br>
+   This screenshot clearly shows a .dat file.<br>
+   <kbd height=80% width=80%> <img src="https://github.com/user-attachments/assets/fae9fb56-2d55-4f4d-a873-3dd3d86dad5f" > </kbd>
+   <br><br>
+   This will open the below conversation:<br>
+   <kbd> <img src="https://github.com/user-attachments/assets/79614c76-75ba-4650-9c0e-dcf8941b4960"> </kbd>
+   <br><br>
+   
   </li>
  </ol>
 </div>
