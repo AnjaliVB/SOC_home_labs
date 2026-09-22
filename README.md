@@ -112,7 +112,14 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
    <li>
     Second reputation check for the same file on MalwareBazaarDatabase
 
+   Navigate to:
+    https://bazaar.abuse.ch/browse/
+
    <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/32c1006a-567b-42ef-a3cf-1362e8fb0dec" ></kbd>
+
+   Type the below command:
+
+    sha256:713207d9d9875ec88d2f3a53377bf8c2d620147a4199eb183c13a7e957056432
    </li>
    
  </ol>
