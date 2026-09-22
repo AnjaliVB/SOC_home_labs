@@ -93,6 +93,27 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
    <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/903c7186-179f-478e-b6bc-b1ca0e326cf6" ></kbd>
    </li>
 
+   <li>
+   Reputation check of 86607.dat file on VirusTotal
+    
+   Create sha256 hash of 86607.dat by using the following command:
+    
+     sha256sum 86607.dat
+
+   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/fd5a6f77-83f1-4843-97e2-af2cefe80b3c" ></kbd>
+
+   Enter the generated sha256 hash on VirusTotal to check its reputation
+
+   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/08de7946-9c4d-42cf-9343-b23581aa6add"></kbd>
+
+   The reputation check resulted that the file is flagged as malicious by 54 vendors. Therefore, this is an IOC (Indicator Of Compromise) that this network has somewhere been targeted to attack the network.
+   </li>
+
+   <li>
+    Second reputation check for the same file on MalwareBazaarDatabase
+
+   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/32c1006a-567b-42ef-a3cf-1362e8fb0dec" ></kbd>
+   </li>
    
  </ol>
 </div>
