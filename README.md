@@ -78,5 +78,21 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
     
    <kbd height=80% width=80% > <img src="https://github.com/user-attachments/assets/e8d1aade-e406-4774-8e29-b67be3025216"></kbd>
    </li>
+   <li>To collect IOCs, go to statistics -> HTTP -> requests
+    
+   <kbd height=80% width=80% > <img src="https://github.com/user-attachments/assets/5f85a64e-342f-4d6e-847a-3aab5f62be54"></kbd>
+   </li>
+
+   <li>
+    To save the .dat file, follow the steps: File -> Export Objects -> HTTP
+    
+   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/4751638d-cc7c-4adb-9aa4-f85d0c74135a"></kbd>
+
+   This will open the following dialog box:
+
+   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/903c7186-179f-478e-b6bc-b1ca0e326cf6" ></kbd>
+   </li>
+
+   
  </ol>
 </div>
