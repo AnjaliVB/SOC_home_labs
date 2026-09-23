@@ -114,12 +114,23 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
 
    Navigate to:
     https://bazaar.abuse.ch/browse/
-
-   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/32c1006a-567b-42ef-a3cf-1362e8fb0dec" ></kbd>
-
-   Type the below command:
+    
+   Type the below command in search bar:
 
     sha256:713207d9d9875ec88d2f3a53377bf8c2d620147a4199eb183c13a7e957056432
+
+   Following is the o/p:
+   
+   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/32c1006a-567b-42ef-a3cf-1362e8fb0dec" ></kbd>
+
+   The output shows that the malware is "Quakbot".
+
+   The below screenshots shows how many attacks were done by Quakbot and different hashes provided by different reporters that reported the malware.
+
+
+  <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/e82c7d00-f21f-4125-8ac9-5b27c2e62482" ></kbd>
+  
+  <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/a74510fb-0090-4fee-b27e-6bbb8b114864" ></kbd>
    </li>
    
  </ol>
