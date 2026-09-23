@@ -154,6 +154,17 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
  <b>Scenario 2</b>:The machine was infected via an initial access vector eg. a user opened a malicious macro-enabled document, executed a drive-by download, or ran a compromised installer and then the initial execution triggered a localized script eg. VBScript, PowerShell, or bash script that utilized curl and downloaded it.
 
 
- Evidence Table:
+ **Evidence Table:**
+ 
+ **Network Traffic Evidence Analysis**
+
+| Indicator | Packet Detail | Analysis / Security Significance |
+| :--- | :--- | :--- |
+| **Originating IP** | `10.0.0.149`  | Internal client host initiating the outbound network request. |
+| **Destination IP** | `128.254.207.55` | External hosting, staging, or Command & Control (C2) server. |
+| **User-Agent** | `curl/7.83.1` | Confirms execution via command-line tool or automated script rather than standard browser navigation. |
+| **Request URI** | `GET /86607.dat` | Outbound request attempting to fetch a secondary stage file/payload. |
+| **HTTP Response** | `200 OK` | Confirms the server successfully fulfilled the request and delivered the `.dat` file payload. |
+
  
 </div>
