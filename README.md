@@ -43,6 +43,15 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
 
 <div>
  <h1>Task: Analyze sample Network Traffic using Wireshark</h1>
+ <h4>Description:
+  <ol>
+   <li>Analyze the sample network traffic using wireshark</li>
+   <li>Search for any hidden malware or suspicious activity</li>
+   <li>Investigate and gather IOCs</li>
+   <li>Conclusion</li>
+  </ol>
+ </h4>
+ <h1></h1>
  <b>Steps</b>
  <ol>
   
@@ -131,7 +140,20 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/e82c7d00-f21f-4125-8ac9-5b27c2e62482" ></kbd>
   
   <kbd height=80% width=80% ><img src="https://github.com/user-attachments/assets/a74510fb-0090-4fee-b27e-6bbb8b114864" ></kbd>
-   </li>
+   </li>   
    
  </ol>
+
+ <h4>Conclusion</h4>
+ Based on these findings and all IOCs, it can be concluded that the network analyzed is compromised with Quakbot malware. The malware was sent by 128.254.207.55 (ip address) through http request, a file named 86607.dat to 10.0.0.149 (ip address). The receiver has accepted the request and has sent a response. This indicates that the receiver has downloaded the malware file via curl/7.83.1. 
+ 
+ There are 2 possible scenarios that how the victim downloaded the malware-86607.dat file.
+ 
+ <b>Scenario 1</b> : The attacker (128.254.207.55) previously gained initial access or Remote Code Execution (RCE) on 10.0.0.149 (eg. via a web vulnerability, phish, or exploit) and then executed a curl command on the victim machine.
+
+ <b>Scenario 2</b>:The machine was infected via an initial access vector eg. a user opened a malicious macro-enabled document, executed a drive-by download, or ran a compromised installer and then the initial execution triggered a localized script eg. VBScript, PowerShell, or bash script that utilized curl and downloaded it.
+
+
+ Evidence Table:
+ 
 </div>
