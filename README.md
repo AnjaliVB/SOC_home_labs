@@ -166,5 +166,11 @@ Network Traffic → Collection → Analysis → Detection → Alert → Investig
 | **Request URI** | `GET /86607.dat` | Outbound request attempting to fetch a secondary stage file/payload. |
 | **HTTP Response** | `200 OK` | Confirms the server successfully fulfilled the request and delivered the `.dat` file payload. |
 
+
+**Investigation Tooling Summary**
+
+* **Wireshark:** Used for deep packet inspection (DPI), extracting HTTP objects (`86607.dat`), and reconstructing TCP streams to identify protocol headers and payload data.
+* **VirusTotal:** Used to query hashes (MD5/SHA256) of extracted payloads and cross-reference public IP addresses against multi-engine threat intelligence databases.
+* **MalwareBazaar:** Used to cross-reference identified file hashes or signatures against known malware family samples for further dynamic/static sandbox analysis.
  
 </div>
